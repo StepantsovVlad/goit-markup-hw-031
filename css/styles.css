@@ -10,11 +10,30 @@
 /* текст с прозрачностью rgba(255, 255, 255, 0.6)*/
 /* белый #FFFFFF */
 /* акцент #2196F3 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 li {
   list-style-type: none;
 }
 a {
   text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 body {
   background-color: var(--white-collor);
@@ -22,6 +41,31 @@ body {
   font-family: roboto, sans-serif;
 }
 /* logo */
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-contacts .items {
+  margin-right: 50px;
+}
+.site-contacts .items:last-child {
+  margin-right: 0;
+}
+.site-nav .items {
+  margin-right: 50px;
+}
+.site-nav .items:last-child {
+  margin-right: 0;
+}
+.site-nav {
+  margin-left: 93px;
+}
+
 .logo {
   font-family: raleway;
   font-weight: bold;
@@ -33,6 +77,10 @@ body {
   color: #000000;
 }
 /* site-nav */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 .site-nav a {
   color: var(--title-text-collor);
   font-weight: 500;
@@ -44,6 +92,10 @@ body {
   color: #2196f3;
 }
 /* site-contacts */
+.site-contacts {
+  display: flex;
+  margin-left: auto;
+}
 .site-contacts .link {
   color: var(--primary-text-collor);
   font-weight: 500;
@@ -75,10 +127,16 @@ body {
 /* hero */
 .hero {
   background-color: #2f303a;
+  text-align: center;
+}
+.hero .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero h1 {
   font-weight: 900;
   font-size: 44px;
+  margin-bottom: 30px;
   line-height: 1.36;
   color: var(--white-collor);
   text-transform: uppercase;
@@ -92,7 +150,24 @@ body {
   color: var(--white-collor);
   background: #2196f3;
 }
+/* section-line */
+.line {
+  display: flex;
+}
+.line .list:not(:last-shild) {
+  margin-right: 30px;
+}
 /* section-advantage */
+.advantage {
+  display: flex;
+}
+.advantage .list {
+  width: 270px;
+}
+.advantage .list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .section-advantage .meaning {
   font-weight: bold;
   font-size: 14px;
