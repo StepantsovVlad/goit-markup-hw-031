@@ -1,0 +1,160 @@
+:root {
+  --primary-text-collor: #757575;
+  --title-text-collor: #212121;
+  --accent-collor: #2196f3;
+  --white-collor: #ffffff;
+}
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* текст с прозрачностью rgba(255, 255, 255, 0.6)*/
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: var(--white-collor);
+  color: var(--primary-text-collor);
+  font-family: roboto, sans-serif;
+}
+/* logo */
+.logo {
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.logo .black {
+  color: #000000;
+}
+/* site-nav */
+.site-nav a {
+  color: var(--title-text-collor);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* site-contacts */
+.site-contacts .link {
+  color: var(--primary-text-collor);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: #2196f3;
+}
+/*footer-section */
+.footer-section {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-collor);
+  background-color: #2f303a;
+}
+.logo .white {
+  color: var(--white-collor);
+}
+.footer-section .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-section .link:hover,
+.footer-section .link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white-collor);
+  text-transform: uppercase;
+}
+.hero .buttons {
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  border-radius: 4px;
+  color: var(--white-collor);
+  background: #2196f3;
+}
+/* section-advantage */
+.section-advantage .meaning {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-collor);
+}
+.section-advantage .example {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* section-line */
+.section-line h2 {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-collor);
+}
+/*section-employee  */
+.section-employee h2 {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-collor);
+}
+.section-employee .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-text-collor);
+}
+.section-employee .department {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* portfolio buttons  */
+.section-portfolio .buttons {
+  font-family: roboto, sans-serif;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  color: var(--title-text-collor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.section-portfolio .buttons:hover,
+.section-portfolio .buttons:focus {
+  background-color: #2196f3;
+  color: var(--white-collor);
+}
+.section-portfolio h3 {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-collor);
+}
+.section-portfolio p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-collor);
+}
