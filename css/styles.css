@@ -143,6 +143,7 @@ body {
   line-height: 1.36;
   color: var(--white-collor);
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .hero .buttons {
   font-family: roboto, sans-serif;
@@ -167,6 +168,7 @@ body {
 }
 .advantage {
   display: flex;
+  margin-bottom: 94px;
 }
 .advantage .list {
   width: 270px;
