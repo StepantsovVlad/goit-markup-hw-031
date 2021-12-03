@@ -150,6 +150,8 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  width: 200px;
+  height: 50px;
   border-radius: 4px;
   color: var(--white-collor);
   background: #2196f3;
@@ -164,8 +166,9 @@ body {
 /* section-advantage */
 .section-advantage {
   padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
+
 .advantage {
   display: flex;
   margin-bottom: 94px;
@@ -177,7 +180,15 @@ body {
   margin-right: 30px;
 }
 /* .section-line */
+.section-line .line {
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
 .section-line h2 {
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
 }
 .section-line .list:not(:last-child) {
   margin-right: 30px;
@@ -189,6 +200,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-collor);
+  margin-bottom: 10px;
 }
 .section-advantage .example {
   font-size: 14px;
@@ -277,6 +289,8 @@ body {
 .portfolio-list {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .content-line .list {
   width: 370px;
@@ -289,18 +303,19 @@ body {
 .content-line .list:nth-child(3n + 3) {
   margin-right: 0;
 }
+.content-line .list:nth-child(7n + 1) {
+  margin-bottom: 0;
+}
 .section-portfolio h3 {
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-collor);
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 .section-portfolio p {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-collor);
-  margin-left: 24px;
 }
 .dell {
   display: none;
