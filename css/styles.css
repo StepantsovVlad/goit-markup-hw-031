@@ -166,12 +166,11 @@ body {
 /* section-advantage */
 .section-advantage {
   padding-top: 94px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .advantage {
   display: flex;
-  margin-bottom: 94px;
 }
 .advantage .list {
   width: 270px;
@@ -180,15 +179,19 @@ body {
   margin-right: 30px;
 }
 /* .section-line */
+.section-line {
+  padding-bottom: 94px;
+}
 .section-line .line {
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .section-line h2 {
   text-align: center;
   color: #212121;
   margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 42px;
 }
 .section-line .list:not(:last-child) {
   margin-right: 30px;
@@ -262,7 +265,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.buttons-line .list:not(:last-child) {
+.buttons-line :not(:last-child) {
   margin-right: 8px;
 }
 .section-portfolio .buttons {
